@@ -1,0 +1,25 @@
+// shortcuts
+    imr = 'import react'
+    imrc = 'import react component'
+    cc ='class component'
+
+// lists
+    tags: ['tag1', 'tag2', 'tag3']
+    <ul>
+        {this.state.tags.map(tag => <li>{tag}</li>)}
+    </ul>
+
+//backup
+    removed buttons: fd1e2b57456a6f67c61967902ad199d02134dae0
+    list: 38b08dc571f8b5efbc0533904e87e65ebc8fe71e
+
+//if 'this' not working
+    make the handler function an arrow funtion
+            OR add
+    constructor(){
+        super()
+        this.handleIncrement.bind(this);
+    }
+
+//padding
+    /* top right bottom left*/
